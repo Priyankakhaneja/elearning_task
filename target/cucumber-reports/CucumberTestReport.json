@@ -1,0 +1,74 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "to verify whether application allows admin to create a category",
+        "description": "",
+        "id": "create-a-category-and-course;to-verify-whether-application-allows-admin-to-create-a-category",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16905468500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch application with url \"http://elearningm1.upskills.in/index.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://elearningm1.upskills.in/index.php",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.launch_application_with_url(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11442722600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "i enter username \"admin\" and passowrd \"admin@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin@123",
+                  "offset": 39
+                }
+              ],
+              "location": "stepdefinitions.i_enter_username_and_passowrd(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@createcategory"
+          }
+        ]
+      }
+    ],
+    "name": "Create a category and course",
+    "description": "I want to use this template for my feature file",
+    "id": "create-a-category-and-course",
+    "keyword": "Feature",
+    "uri": "course.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@createcourse"
+      }
+    ]
+  }
+]
